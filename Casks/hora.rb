@@ -3,11 +3,11 @@ cask "hora" do
 
   on_intel do
     sha256 "PLACEHOLDER_INTEL_SHA256" # Update when Intel binary is built
-    url "https://github.com/dholendar27/Hora/releases/download/v#{version}/Hora_#{version}_x64.dmg"
+    url "https://pub-7229178f4aa94482b5b9c586fe4d5087.r2.dev/Hora_#{version}_aarch64.dmg"
   end
   on_arm do
     sha256 "52553f61bba6c2bc1fb70f16f9553e0fd4baea561fab25629d9d22e2920ace9f"
-    url "https://github.com/dholendar27/Hora/releases/download/v#{version}/Hora_#{version}_aarch64.dmg"
+    url "https://pub-7229178f4aa94482b5b9c586fe4d5087.r2.dev/Hora_#{version}_aarch64.dmg"
   end
 
   name "Hora"
